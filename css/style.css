@@ -24,12 +24,52 @@ img {
     position: static;
 
 }
+section { 
+    position: static;
+    font-family: 'Cooper Black'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color:#371700;
+}
+
 h1 {
     position: static;
     font-family: 'Cooper Black'; 
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
+    line-height: auto;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color:#371700}
+h2 {
+    font-family: 'Cooper Black'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color:#371700}
+ h3 {
+    position: static;
+    font-family: 'Cooper Black'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color:#371700}
+h4 {
+    position: static;
+    font-family: 'Cooper Black'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
     line-height: 10px;
     text-align: center;
     letter-spacing: 0.1em;
@@ -64,3 +104,9 @@ body {
     background-image: url("../images/grid.png");
     background-color: #faf4e8;
     }
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 33%;
+    margin: auto;
+    padding: auto;
+}
